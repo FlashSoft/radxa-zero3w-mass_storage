@@ -3,8 +3,8 @@
 
 ```
 # 安装新内核
-wget https://proxy.kwai.host/https://raw.githubusercontent.com/FlashSoft/radxa-zero3w-mass_storage/refs/heads/main/linux-headers-5.10.160-999-rk356x_5.10.160-999_arm64.deb
-wget https://proxy.kwai.host/https://raw.githubusercontent.com/FlashSoft/radxa-zero3w-mass_storage/refs/heads/main/linux-image-5.10.160-999-rk356x_5.10.160-999_arm64.deb
+wget https://raw.githubusercontent.com/FlashSoft/radxa-zero3w-mass_storage/refs/heads/main/linux-headers-5.10.160-999-rk356x_5.10.160-999_arm64.deb
+wget https://raw.githubusercontent.com/FlashSoft/radxa-zero3w-mass_storage/refs/heads/main/linux-image-5.10.160-999-rk356x_5.10.160-999_arm64.deb
 dpkg -i linux-headers-5.10.160-999-rk356x_5.10.160-999_arm64.deb
 dpkg -i linux-image-5.10.160-999-rk356x_5.10.160-999_arm64.deb
 # 重启
